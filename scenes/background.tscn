@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b14uyt3po5dbs"]
+
+[ext_resource type="AudioStream" uid="uid://br31535jv153x" path="res://assets/sounds/Fluffing-a-Duck.mp3" id="1_bkp1e"]
+
+[node name="Background" type="AudioStreamPlayer" unique_id=1697638010]
+stream = ExtResource("1_bkp1e")
+autoplay = true
+bus = &"Background"
